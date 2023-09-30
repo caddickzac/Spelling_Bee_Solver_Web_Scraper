@@ -18,7 +18,7 @@ if __name__ == "__main__":
     df = pd.DataFrame(columns=["Sequence", "URL", "Text"])
     
     for i in range(1, 5):  # test batch of first 5 cases 
-    # for i in range(1, 1970):  # first entry through Sept. 29th 2023 (note: this will take several hours to complete)
+    # for i in range(1, 1970):  # first entry through Sept. 28th 2023 (note: this will take several hours to complete)
         url = BASE_URL + str(i)
         print(f"Fetching data from {url} ...")
         try:
