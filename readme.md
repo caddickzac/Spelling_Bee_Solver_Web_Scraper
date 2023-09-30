@@ -61,10 +61,6 @@ Processes the raw data fetched by the web scraper, refining it into structured f
     python sbsolver_data_cleanup.py
     ```
 
-## Good Practices
-- **Web Scraping**: Adhere to the website's `robots.txt` rules and obtain necessary permissions.
-- **Pipeline Flow**: Start with the web scraping script, followed by the cleanup script.
-
 ## Output DataFrame Structure
 
 The polished `df_processed` DataFrame includes:
