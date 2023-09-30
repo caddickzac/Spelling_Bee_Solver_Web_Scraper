@@ -70,7 +70,7 @@ Processes the raw data fetched by the web scraper, refining it into structured f
 The polished `df_processed` DataFrame includes:
 1. **date**: Game's date.
 2. **center_letter**: Center letter which appears in every game word.
-3. **letters**: Unique pangram letters, separated by commas.
+3. **letters**: Unique pangram letters
 4. **pangrams**: Count of pangrams.
 5. **perfect**: Count of perfect pangrams.
 6. **words**: Total word count.
